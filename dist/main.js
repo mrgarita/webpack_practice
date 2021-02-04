@@ -7,15 +7,16 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/modules/my.css":
 /*!****************************!*\
   !*** ./src/modules/my.css ***!
   \****************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nTypeError: The 'compilation' argument must be an instance of Compilation\\n    at getCompilationHooks (C:\\\\Users\\\\mrgarita\\\\dev\\\\udemy\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\javascript\\\\JavascriptModulesPlugin.js:119:10)\\n    at C:\\\\Users\\\\mrgarita\\\\dev\\\\udemy\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\javascript\\\\CommonJsChunkFormatPlugin.js:30:19\\n    at Hook.eval [as call] (eval at create (C:\\\\Users\\\\mrgarita\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:19:10), <anonymous>:7:1)\\n    at Hook.CALL_DELEGATE [as _call] (C:\\\\Users\\\\mrgarita\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\tapable\\\\lib\\\\Hook.js:14:14)\\n    at Compiler.newCompilation (C:\\\\Users\\\\mrgarita\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:990:30)\\n    at C:\\\\Users\\\\mrgarita\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:1033:29\\n    at Hook.eval [as callAsync] (eval at create (C:\\\\Users\\\\mrgarita\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\tapable\\\\lib\\\\HookCodeFactory.js:33:10), <anonymous>:6:1)\\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\\\\Users\\\\mrgarita\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\tapable\\\\lib\\\\Hook.js:18:14)\\n    at Compiler.compile (C:\\\\Users\\\\mrgarita\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:1028:28)\\n    at Compiler.runAsChild (C:\\\\Users\\\\mrgarita\\\\Dev\\\\Udemy\\\\Webpack\\\\node_modules\\\\webpack\\\\lib\\\\Compiler.js:495:8)\");\n\n//# sourceURL=webpack://webpack-practice/./src/modules/my.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-practice/./src/modules/my.css?");
 
 /***/ }),
 
@@ -25,8 +26,7 @@ eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extrac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_my_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/my.js */ \"./src/modules/my.js\");\n/* harmony import */ var _modules_my_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/my.css */ \"./src/modules/my.css\");\n/* harmony import */ var _modules_my_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_my_css__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\nconsole.log(\"Webpack!\");\r\n\r\n(0,_modules_my_js__WEBPACK_IMPORTED_MODULE_0__.default)();\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_my_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/my.js */ \"./src/modules/my.js\");\n/* harmony import */ var _modules_my_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/my.css */ \"./src/modules/my.css\");\n\r\n\r\n\r\nconsole.log(\"Webpack!\");\r\n\r\n(0,_modules_my_js__WEBPACK_IMPORTED_MODULE_0__.default)();\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/index.js?");
 
 /***/ }),
 
@@ -36,7 +36,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\r\n\tconsole.log(\"This is module!\");\r\n});\r\n\n\n//# sourceURL=webpack://webpack-practice/./src/modules/my.js?");
 
 /***/ })
@@ -67,18 +66,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => module['default'] :
-/******/ 				() => module;
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
